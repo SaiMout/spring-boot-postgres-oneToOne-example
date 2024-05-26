@@ -7,6 +7,7 @@ package com.springboot.jpa.hibernate.dto;
 public class EmployeeDto {
 	public EmployeeDto() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
 
 	public EmployeeDto(Long id, String name, String role, String department, Long mmnrcId) {
