@@ -47,7 +47,6 @@ public class MMnrcDto {
 	}
 	public MMnrcDto() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Long getId() {
 		return id;
