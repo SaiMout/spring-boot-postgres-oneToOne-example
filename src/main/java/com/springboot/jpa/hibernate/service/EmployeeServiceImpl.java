@@ -95,15 +95,15 @@ public class EmployeeServiceImpl implements IEmployeeService {
 
 	}
 
-	private EmployeeDto mapToEmployee(Employee employee) {
-		EmployeeDto employeeDto = new EmployeeDto();
-		employeeDto.setId(employee.getId());
-		employeeDto.setName(employee.getName());
-		employeeDto.setDepartment(employee.getDepartment());
-		employeeDto.setRole(employee.getRole());
-		employeeDto.setMmnrcId(employee.getId());
-		return employeeDto;
-	}
+//	private EmployeeDto mapToEmployee(Employee employee) {
+//		EmployeeDto employeeDto = new EmployeeDto();
+//		employeeDto.setId(employee.getId());
+//		employeeDto.setName(employee.getName());
+//		employeeDto.setDepartment(employee.getDepartment());
+//		employeeDto.setRole(employee.getRole());
+//		employeeDto.setMmnrcId(employee.getId());
+//		return employeeDto;
+//	}
 
 	public Employee mapToEmployeeFromDto(EmployeeDto employeeDto) {
 		Employee employee = new Employee();
